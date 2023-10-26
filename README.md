@@ -10,6 +10,6 @@ For Xavier initialisation the following lines can be uncommented:
 
 As mentioned in the paper, this makes the particular architecture less prone to mode collapse (in the BCE loss case specifically) and more stable, but you can also use He initialisation, which is the default initialisation in Pytorch. 
 
-The notation in the code is the same as in the paper (Algorithm 1). Some variables might be unnecessary, eg epochs_val, just set it to True/False, if needed. This was left from the previous versions of the code, in order to make fewer changes. I tried to make comments here and there, but you will see that it is a long code. I hope you find it useful regardless.
+The notation in the code is the same as in the paper (Algorithm 1). Some variables might be unnecessary, eg epochs_val, just set them to True/False, if needed. This was left from the previous versions of the code, in order to make fewer changes. I tried to make comments here and there, but you will see that it is a long code. I hope you find it useful regardless.
 
 Also, the results should be different depending on the stock used and the periods used for training, validation, and testing. Of course, they will also depend on the seed, but they should be consistent. Let me know if you have any questions by emailing at vuletic [at] maths [dot] ox [dot] ac [dot] uk.
