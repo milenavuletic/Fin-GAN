@@ -1,5 +1,5 @@
 # Fin-GAN
-Code to accompany the paper "Fin-GAN: Forecasting and Classifying Financial Time Series via Generative Adversarial Networks"
+Code to accompany the paper "Fin-GAN: Forecasting and Classifying Financial Time Series via Generative Adversarial Networks" available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328302 
 
 The Fin-GAN code and some other supplements are available here. The main code is in the Fin-GAN-online.py file, but you can also find the data cleaning file and the list of stocks and the corresponding ETFs. The data can be download from CRSP on WRDS. I saved all files as TICKER-data.csv, which is the notation used in the code. Please adjust to your own needs.
 
