@@ -3,6 +3,8 @@ Code to accompany the paper "Fin-GAN: Forecasting and Classifying Financial Time
 
 The Fin-GAN code and some other supplements are available here. The main code is in the Fin-GAN-online.py file, but you can also find the data cleaning file and the list of stocks and the corresponding ETFs. The data can be download from CRSP on WRDS. I saved all files as TICKER-data.csv, which is the notation used in the code. Please adjust to your own needs.
 
+Fin-GAN-example.py is an example on how to run the functions from the main Fin-GAN file.
+
 For Xavier initialisation the following lines can be uncommented:
 
         # nn.init.xavier_normal_(self.lstm.weight_ih_l0)
